@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: burlywood;
+    padding: 15px;
+    gap: 5px;
+}
+
+#name {
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    color: navy;
+}
+
+#age {
+    font-size: 50px;
+    color: cornflowerblue;
+}
+
+#link {
+    font-size: 20px;
+    color: blue;
+}
+
+#link:hover {
+    color: whitesmoke;
+}
+
+#todo {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: beige;
+}
+
+section {
+    width: calc(100% - 60px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    background-color: burlywood;
+}
+
+.todos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#favorite-content {
+    flex-direction: column;
+}
+
+#contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.m1m {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: royalblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+li {
+    background: bisque;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f1 {
+    color: rgb(63, 150, 213);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: burlywood;
+    padding: 40px;
+    font-size: 25px;
+}
+
+#button {
+    background: bisque;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
